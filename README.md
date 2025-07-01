@@ -4,6 +4,23 @@
 
 Netflix is known for its extensive use of data science, artificial intelligence, and machine learning to deliver personalized viewing experiences. In this project, we analyze a dataset of over 9,000 Netflix movies to extract meaningful insights that can help in strategic decision-making.
 
+🔍 Exploration Summary
+
+The dataset consists of 9,827 rows and 9 columns.
+
+The data is clean, with no missing (NaN) or duplicate values.
+
+The release_date column should be converted to datetime format, and the year extracted for analysis.
+
+Columns such as overview, original_language, and poster_url are not useful for current analysis and can be dropped.
+
+There are outliers in the popularity column that need to be addressed or visualized carefully.
+
+The vote_average column should be categorized (e.g., low, medium, high) for better aggregation.
+
+The genre column contains comma-separated values with white spaces that need cleaning and transformation for genre-wise grouping.
+
+
 🎯 Objectives
 
 The aim of this project is to answer key business questions through Exploratory Data Analysis (EDA), such as:
