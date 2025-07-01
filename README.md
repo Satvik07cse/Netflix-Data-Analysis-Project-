@@ -16,7 +16,7 @@ Columns such as overview, original_language, and poster_url are not useful for c
 
 There are outliers in the popularity column that need to be addressed or visualized carefully.
 
-The vote_average column should be categorized (e.g., low, medium, high) for better aggregation.
+The vote_average column should be categorized (e.g.,popular,average,below_avg,not_popular) for better aggregation.
 
 The genre column contains comma-separated values with white spaces that need cleaning and transformation for genre-wise grouping.
 
